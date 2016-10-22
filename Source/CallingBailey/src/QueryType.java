@@ -1,6 +1,6 @@
 
 public enum QueryType {
 	Weather(),
-	Wsrning(),
+	Warning(),
 	Current();
 }
