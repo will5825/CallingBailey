@@ -22,17 +22,19 @@
 
 \newpage
 
-% \section {General Information}
-% 
-% \subsection {Terms and Definitions}
-% {\renewcommand{\arraystretch}{1.4}
-% \begin{tabularx}{\textwidth}{lX}
-%     \toprule
-% 	\textbf{Term} & \textbf{Definition} \\
-% 	\midrule
-%     \textbf{Node} & Another buoy. \\
-% 	\bottomrule
-% \end{tabularx}
+\section {General Information}
+
+\subsection{Description}
+
+The system is designed to take user inputted queries about the state of the ocean, and return it in a timely manner.
+
+\subsection{Purpose}
+
+The purpose is for those stranded in the ocean to have a means of receiving information to better their chances of survival through receiving information about the current status of the ocean. These properties include weather, ocean current waves, and other warnings.
+
+\subsection{Scope}
+
+The scope is a finite range of the ocean such that all other systems are within range.
 
 \section{Module Hierarchy}
 This section provides the hierarchy of the modules that will be implemented, from bottom up.
@@ -75,6 +77,14 @@ The requirements for the system are based off the following assumptions:
     \item The system shall have an option for the user to request instructions on how to use the system.
 \end{enumerate}
 
+\subsection{Non-Functional Requirements} 
+\begin{enumerate}
+    \item The system shall process queries quickly
+    \item The system shall reply back to the caller quickly
+    \item The system shall have easy instructions to follow in the help messages
+    \item The system shall be easy to access
+\end{enumerate}
+
 \section {Traceability Matrices}
 \subsection{Trace Between Requirements and Modules}
 
@@ -94,5 +104,24 @@ The requirements for the system are based off the following assumptions:
     \textbf{R9} & M1, M2, M4 \\
 	\bottomrule
 \end{tabularx}
+
+\section{Waiting Room}
+
+Due to time constraints, we were unable to finish implementing the following classes:\\
+Query\\
+QueryType\\
+QYeryWhen\\
+Store\\
+ due to not having finished the required stubs for simulations\\
+ 
+ 
+ \section{Features}
+ The following are implemented:\\
+ Ping from satellite\\
+ picking best satellite in according to ping\\
+ user input
+ 
+ 
+
 
 \end{document}
