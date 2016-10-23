@@ -9,7 +9,7 @@ public class Main {
 			sampleSat[i] = new satellite(i);
 		}
 		//check for satellite with best ping
-		satellite bestSat = new satellite();
+		satellite bestSat ;
 		bestSat = SystemCheck.checkBestSatellite(sampleSat);
 		System.out.println("Satellite "+ bestSat.getName() + "has best ping");
 		
@@ -17,7 +17,7 @@ public class Main {
 		System.out.println("Please enter query - Warning, Weather or Current ");
 		String n = reader.nextLine(); 
 		
-		//simulate sending info and receiving from satellite
+		//simulate sending info to satellite from user, and have it send back to system
 		String userInput = bestSat.getQuery(n);
 		
 		if(userInput.equals("Warning")){
