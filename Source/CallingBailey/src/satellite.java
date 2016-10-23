@@ -17,8 +17,9 @@ public class satellite {
 		return query;
 	}
 	
-	public String sendReply(String reply){
-		return reply;
+	public void sendReply(String[] reply, String callerId){
+		//SEND INFO TO USER
+		return;
 	}
 
 }
