@@ -1,9 +1,7 @@
 
 public class satellite {
 	private int xCoord, yCoord;
-	public satellite(int xCoord, int yCoord){
-		this.xCoord=xCoord;
-		this.yCoord=yCoord;
+	public satellite(){
 	}
 	
 	public int sendPackage(){

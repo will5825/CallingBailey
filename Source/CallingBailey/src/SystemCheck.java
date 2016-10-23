@@ -7,7 +7,7 @@ public class SystemCheck {
 
 
 //checks for best satellite by taking in array of Satellites
-public satellite checkBestSatellite(satellite[] avaliableSat){
+public static satellite checkBestSatellite(satellite[] avaliableSat){
 	double ping =9999999;
 	int currentBestPing=0;
 	for(int i=0; i<avaliableSat.length; i++){
