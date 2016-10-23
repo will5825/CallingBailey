@@ -97,4 +97,8 @@ public class Store {
 			e.printStackTrace();
 		}
 	}
+	
+	public String[] getResult(QueryType qt){
+		return new String[]{"Some", "Result"};
+	}
 }
