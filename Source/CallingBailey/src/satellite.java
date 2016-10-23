@@ -3,6 +3,7 @@
  */
 public class satellite {
 	private int name;
+	
 	public satellite(int name){
 		this.name = name;
 	}
